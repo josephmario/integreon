@@ -92,34 +92,52 @@ const Footer = () => {
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#whoWeAre"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Who We Are
-              </span>
+              </a>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#legalAndRegulatorySol"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Legal & Regulatory Solutions
-              </span>
+              </a>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#createAndBusinessSol"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Creative & Business Solutions
-              </span>
+              </a>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#resourceCenter"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Resource Center
-              </span>
+              </a>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#career"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Careers
-              </span>
+              </a>
             </div>
             <div>
-              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
+              <a
+                href="#contact"
+                className="flex items-center text-white text-base hover:text-blue-600 p-2"
+              >
                 Contact
-              </span>
+              </a>
             </div>
           </div>
           <div className="w-1/4 p-5 mt-16">

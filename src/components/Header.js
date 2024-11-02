@@ -55,10 +55,10 @@ const Header = () => {
       </div>
       <hr />
       <div className="container mx-auto flex items-center">
-        <div className="w-3/12">
+        <div className="w-1/6 flex mr-96">
           <img src={logo} alt="Company Logo" className="h-24 mx-auto" />
         </div>
-        <div className="w-9/12 p-2">
+        <div className="w-5/6 flex justify-center">
           <nav className="flex space-x-6">
             <a href="/whoWeAre" className="text-gray-600 hover:text-blue-600">
               Who We Are

@@ -21,7 +21,7 @@ const OnePartner = () => {
             <div className="text-left mb-4 text-gray-700">
               <span>
                 We provide expertise and support for a range <br />
-                of legal and business needs
+                of legal and business needs.
               </span>
             </div>
           </div>

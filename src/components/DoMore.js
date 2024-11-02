@@ -35,7 +35,7 @@ const DoMore = () => {
             </button>
           </div>
         </div>
-        <div className="w-3/5 flex justify-end w-full h-15">
+        <div className="w-2/3 flex justify-end w-full h-15">
           <img src={banner} alt="banner" />
         </div>
       </div>
