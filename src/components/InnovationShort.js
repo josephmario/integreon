@@ -28,14 +28,13 @@ const OnePartner = () => {
             style={{ background: '#01c6bf' }}
             className="text-white mt-52 absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center shadow"
           >
-            &#10094; {/* Left arrow */}
+            &#10094;
           </button>
-          {/* Right Button */}
           <button
             style={{ background: '#01c6bf' }}
             className="text-white mt-52 absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center shadow"
           >
-            &#10095; {/* Right arrow */}
+            &#10095;
           </button>
         </div>
       </div>
