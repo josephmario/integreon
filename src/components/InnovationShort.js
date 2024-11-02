@@ -4,30 +4,46 @@ import Pfizer from './img/Pfizer.jpg';
 
 const OnePartner = () => {
   return (
-    <div className="container mx-auto flex" style={{ height: '520px' }}>
-      <div className="relative w-3/5 h-full" style={{ background: '#f2f4f3' }}>
-        <img src={banner2} alt="banner" className="w-full h-auto" />
-        <div className="absolute inset-0 flex flex-col justify-center items-start p-8">
-          <div className="text-left">
-            <div className="mb-4 text-4xl">
-              <span>Innovation</span>
-            </div>
-            <div className="mb-4 text-4xl font-extrabold">
-              <span>Shorts</span>
-            </div>
-            <div className="mb-4 text-gray-700">
-              <span>
-                Insights on contract lifecycle management <br />
-                delivered with a big helping of humor.
-              </span>
+    <div className="mx-auto flex" style={{ height: '520px' }}>
+      <div className="w-2/5" style={{ background: '#f2f4f3' }}>
+        <div className="relative flex justify-end">
+          <img src={banner2} alt="banner" className="w-full h-auto" />
+          <div className="absolute inset-0 flex flex-col justify-center items-start p-8">
+            <div className="text-left mt-96 ml-32">
+              <div className="mb-4 text-4xl">
+                <span>Innovation</span>
+              </div>
+              <div className="mb-4 text-4xl font-extrabold">
+                <span>Shorts</span>
+              </div>
+              <div className="mb-4 text-gray-700">
+                <span>
+                  Insights on contract lifecycle management <br />
+                  delivered with a big helping of humor.
+                </span>
+              </div>
             </div>
           </div>
+          <button
+            style={{ background: '#01c6bf' }}
+            className="text-white mt-52 absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center shadow"
+          >
+            &#10094; {/* Left arrow */}
+          </button>
+          {/* Right Button */}
+          <button
+            style={{ background: '#01c6bf' }}
+            className="text-white mt-52 absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center shadow"
+          >
+            &#10095; {/* Right arrow */}
+          </button>
         </div>
       </div>
-      <div className="w-5/12" style={{ background: '#01c6bf' }}>
-        <div className="flex justify-end">
+
+      <div className="w-3/5 mr-32" style={{ background: '#01c6bf' }}>
+        <div className="flex justify-end ">
           <div
-            className="w-3/4 flex flex-col p-10 h-96"
+            className="w-5/6  flex flex-col p-10 h-96"
             style={{ background: '#FFFFFF' }}
           >
             <div className="text-left mb-4 text-xl font-semibold">

@@ -18,14 +18,10 @@ const Footer = () => {
           <div className="w-1/4 p-4">
             {' '}
             <div className="flex flex-col items-center">
-              <img
-                src={integblue}
-                alt="Image 1"
-                className="mb-2 w-full h-auto"
-              />
-              <img src={toprank} alt="Image 2" className="w-full h-auto" />
+              <img src={integblue} alt="Image 1" className="mb-2 w-32 h-auto" />
+              <img src={toprank} alt="Image 2" className="mb-2 w-32 h-auto" />
             </div>
-            <div>
+            <div className="ml-32 mt-10">
               <div>
                 <span className="flex items-center text-white text-2xl font-extrabold hover:text-blue-600 p-2">
                   Contact Us
@@ -49,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 p-4">
+          <div className="w-1/4 py-24">
             <div className="text-left text-base text-white">
               <span>
                 Integreon is a trusted provider of legal and business outsourced
@@ -60,7 +56,7 @@ const Footer = () => {
                 performance.
               </span>
             </div>
-            <div className="text-left mt-4">
+            <div className="text-left mt-20">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
@@ -88,53 +84,53 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-1/4 p-4">
+          <div className="w-1/4 p-5 mt-16">
             {' '}
             <div>
-              <span className="flex items-center text-white text-2xl font-extrabold hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-lg font-extrabold hover:text-blue-600 p-2">
                 Quick Links
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Who We Are
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Legal & Regulatory Solutions
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Creative & Business Solutions
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Resource Center
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Careers
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Contact
               </span>
             </div>
           </div>
-          <div className="w-1/4 p-4">
+          <div className="w-1/4 p-5 mt-16">
             {' '}
             <div>
-              <span className="flex items-center text-white text-2xl font-extrabold hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-lg font-extrabold hover:text-blue-600 p-2">
                 Stay in the loop
               </span>
             </div>
             <div>
-              <span className="flex items-center text-white text-xl hover:text-blue-600 p-2">
+              <span className="flex items-center text-white text-base hover:text-blue-600 p-2">
                 Join our mailing list
               </span>
             </div>

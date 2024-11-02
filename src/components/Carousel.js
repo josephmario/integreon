@@ -30,7 +30,7 @@ const Carousel = () => {
       src: 'https://picsum.photos/600/300?random=5',
       label:
         'Tackling Post-Brexit Regulatory Challenges as UK and EU Oaths Diverge',
-      secondLabel: 'by Dean Nasser n Articles',
+      secondLabel: 'by Dean Nasser in Articles',
     },
   ];
 
@@ -47,10 +47,13 @@ const Carousel = () => {
   };
 
   return (
-    <div className="container relative w-full mx-auto p-6">
+    <div className="relative w-full mx-auto p-6">
       <div className="shadow-lg rounded flex overflow-hidden h-auto">
         {images.slice(currentIndex, currentIndex + 5).map((image, index) => (
-          <div key={index} className="w-1/5 flex flex-col items-center p-2">
+          <div
+            key={index}
+            className="w-1/5 flex flex-col items-center p-4 m-1 border border-gray-300"
+          >
             <div>
               <img
                 src={image.src}
@@ -61,7 +64,10 @@ const Carousel = () => {
             <div className="mt-2 text-left text-base font-extrabold text-gray-800 bg-white p-2 h-20">
               <span>{image.label}</span>
             </div>
-            <div className="w-full mt-1 text-left text-base text-gray-600 font-semibold bg-white p-4 h-16">
+            <div
+              className="w-full mt-1 text-left text-base text-gray-600 font-semibold bg-white p-2 h-16"
+              style={{ color: '#01c6bf' }}
+            >
               <span>{image.secondLabel}</span>
             </div>
           </div>

@@ -6,11 +6,8 @@ import SharedMission from './img/SharedMission.jpg';
 
 const GlobalTeam = () => {
   return (
-    <div
-      className="container mx-auto p-4 flex"
-      style={{ backgroundColor: '#0e1821' }}
-    >
-      <div className="w-35 p-2">
+    <div className="mx-auto p-4 flex" style={{ backgroundColor: '#0e1821' }}>
+      <div className="w-35 p-2 ml-32">
         <div className="flex items-center">
           <img src={ThreePeople} alt="ThreePeople" className="w-32 h-28 mr-2" />
           <span
@@ -18,30 +15,36 @@ const GlobalTeam = () => {
             style={{ color: '#01c6bf' }}
           >
             3,500 <br />
-            <span className="p-2 text-2xl text-white">Professional</span>
+            <span className="p-2 text-xl text-white font-normal">
+              Professional
+            </span>
           </span>
         </div>
         <div className="flex items-center">
           <img src={Language} alt="Language" className="w-32 h-28 mr-2" />
           <span
-            className="p-2 font-black text-6xl"
+            className="p-5 font-black text-6xl"
             style={{ color: '#01c6bf' }}
           >
-            50+ <br />
-            <span className="p-2 text-2xl text-white">Languages</span>
+            50 + <br />
+            <span className="p-2 text-xl text-white font-normal">
+              {' '}
+              Languages
+            </span>
           </span>
         </div>
       </div>
-
       <div className="w-35 p-2">
         <div className="flex items-center">
           <img src={Continents} alt="Continents" className="w-32 h-28 mr-2" />
           <span
-            className="p-2 font-black text-6xl text-left"
+            className="p-4 font-black text-6xl text-left"
             style={{ color: '#01c6bf' }}
           >
             3 <br />
-            <span className="text-2xl text-white">Continents</span>
+            <span className="p-2 text-xl text-white font-normal">
+              Continents
+            </span>
           </span>
         </div>
         <div className="flex items-center">
@@ -51,11 +54,14 @@ const GlobalTeam = () => {
             className="w-32 h-28 mr-2"
           />
           <span
-            className="p-2 font-black text-6xl text-left"
+            className="p-4 font-black text-6xl text-left"
             style={{ color: '#01c6bf' }}
           >
             1 <br />
-            <span className="text-2xl text-white">Shared Mission</span>
+            <span className="p-2 text-xl text-white font-normal">
+              {' '}
+              Shared Mission
+            </span>
           </span>
         </div>
       </div>

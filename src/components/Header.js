@@ -54,9 +54,9 @@ const Header = () => {
         </div>
       </div>
       <hr />
-      <div className="container mx-auto p-4 flex items-center">
-        <div className="w-3/12 p-2">
-          <img src={logo} alt="Company Logo" className="h-20 mx-auto" />
+      <div className="container mx-auto flex items-center">
+        <div className="w-3/12">
+          <img src={logo} alt="Company Logo" className="h-24 mx-auto" />
         </div>
         <div className="w-9/12 p-2">
           <nav className="flex space-x-6">
